@@ -60,7 +60,7 @@ while a=="b":
         print("IT'S A DRAW")
     sleep(1)
     a=input("Enter b if you want to play another match or any other key to exit")
-    if a is not 'b':
+    if a !='b':
         print("It will take few seconds to make you exit from the Game")
         sleep(0.4)
         print(".....")
